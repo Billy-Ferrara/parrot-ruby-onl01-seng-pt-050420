@@ -1,4 +1,7 @@
-def parrot
-  puts "Squawk!"
+def parrot(phrase= "Pretty bird!")
+  if phrase = nil
+    puts "Squawk!"
+  else
+    puts "#{phrase}"
   return "Squawk!"
 end
