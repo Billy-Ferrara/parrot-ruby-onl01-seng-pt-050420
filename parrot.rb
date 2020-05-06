@@ -7,7 +7,7 @@
 #   end
 # end
 
-def parrot
-  puts "Squawk!"
-  "Squawk!"
+def parrot(phrase= "Pretty Bird!")
+  puts "#{phrase}!"
+  "phrase"
 end
